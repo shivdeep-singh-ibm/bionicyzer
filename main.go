@@ -34,6 +34,10 @@ func boldChars(text string, num int) string {
 		// strings starting with `,",( are unchanged)
 		return text
 	}
+	if !unicode.IsLetter(rune(text[n-1])) && !unicode.IsNumber(rune(text[n-1])) {
+		// in case the last char to bold is not a number of a letter like hello-world
+		return text
+	}
 
 	return fmt.Sprintf("**%s**%s", text[:n], text[n:])
 }

@@ -1,10 +1,10 @@
 # bionicyzer
 
-**A** **comman**dline **to**ol **whi**ch **conv**erts **plain**text **in**to **bio**nic **read**ing **rea**dy **mark**down **tex**t. **Th**e **mark**down **gener**ated **b**y **th**e **to**ol **ca**n **ren**der **bio**nic **read**ing **i**n **vsc**ode **prev**iew, **git**hub **REA**DME **et**c.
+**A** **comman**dline **to**ol **whi**ch **conv**erts **plain**text **in**to **bio**nic **read**ing **rea**dy
+**mark**down **tex**t. **Th**e **mark**down **gener**ated **b**y **th**e **to**ol **ca**n **ren**der **bio**nic
+**read**ing **i**n **vsc**ode **prev**iew, **git**hub **REA**DME **et**c.
 
 It can be used along with `gum` to do bionic reading on terminal.
-
-
 
 ## Build
 
